@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AdpressoSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AdpressoSampleAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		808EA672CB5B2D7980ADDBBD /* libPods-adpresso_sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE588347E0087BEFBD5C600 /* libPods-adpresso_sample.a */; };
+		963011B51A419034007C1416 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 963011B41A419034007C1416 /* Images.xcassets */; };
+		963011BB1A4191B2007C1416 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 963011BA1A4191B2007C1416 /* Launch Screen.xib */; };
+		D9D7D3FD1785772E00B08C5F /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D7D3FB1785772D00B08C5F /* InterstitialViewController.m */; };
+		D9D7D3FE1785772E00B08C5F /* InterstitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9D7D3FC1785772D00B08C5F /* InterstitialViewController.xib */; };
+		F116624D1121304E00AF352F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F116624C1121304E00AF352F /* TableViewController.m */; };
+		F134A137160ADCF000134509 /* RotatingNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F134A136160ADCF000134509 /* RotatingNavigationController.m */; };
+		F1662812130D20F2000BDCF0 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F166280D130D20F2000BDCF0 /* RootViewController.xib */; };
+		F1662813130D20F2000BDCF0 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F166280E130D20F2000BDCF0 /* TableViewController.xib */; };
+		F1662814130D20F2000BDCF0 /* BannerIBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F166280F130D20F2000BDCF0 /* BannerIBViewController.xib */; };
+		F184509117B2331700D2EF87 /* UIViewController+IOS7ViewControllerEdgeSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = F184509017B2331700D2EF87 /* UIViewController+IOS7ViewControllerEdgeSupport.m */; };
+		F190F14315105F0100C21CDD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F190F14215105F0100C21CDD /* CoreTelephony.framework */; };
+		F193AA3A178A611E00B1976E /* BannerCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F193AA38178A611E00B1976E /* BannerCodeViewController.m */; };
+		F193AA3B178A611E00B1976E /* BannerCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F193AA39178A611E00B1976E /* BannerCodeViewController.xib */; };
+		F1D74A0D17407B2300512F18 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D74A0C17407B2300512F18 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F1E1C03110B4E646003B04C6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C03010B4E646003B04C6 /* SystemConfiguration.framework */; };
+		F1E1C09310B504EC003B04C6 /* BannerIBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E1C09110B504EC003B04C6 /* BannerIBViewController.m */; };
+		F1E1C0D210B50B2B003B04C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C0D110B50B2B003B04C6 /* MapKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F1E1C35910B53F74003B04C6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C35810B53F74003B04C6 /* OpenGLES.framework */; };
+		F1E1C3AB10B5433A003B04C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E1C3AA10B5433A003B04C6 /* QuartzCore.framework */; };
+		F2247D701E35EA5900094B30 /* 57_57.png in Resources */ = {isa = PBXBuildFile; fileRef = F2247D6C1E35EA5900094B30 /* 57_57.png */; };
+		F2247D711E35EA5900094B30 /* 114_114.png in Resources */ = {isa = PBXBuildFile; fileRef = F2247D6D1E35EA5900094B30 /* 114_114.png */; };
+		F2247D721E35EA5900094B30 /* 120_120.png in Resources */ = {isa = PBXBuildFile; fileRef = F2247D6E1E35EA5900094B30 /* 120_120.png */; };
+		F2247D731E35EA5900094B30 /* 180_180.png in Resources */ = {isa = PBXBuildFile; fileRef = F2247D6F1E35EA5900094B30 /* 180_180.png */; };
+		F247C4561E35F60F00C8437B /* 320_480.png in Resources */ = {isa = PBXBuildFile; fileRef = F247C4501E35F60F00C8437B /* 320_480.png */; };
+		F247C4571E35F60F00C8437B /* 640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = F247C4511E35F60F00C8437B /* 640_960.png */; };
+		F247C4581E35F60F00C8437B /* 640_1136.png in Resources */ = {isa = PBXBuildFile; fileRef = F247C4521E35F60F00C8437B /* 640_1136.png */; };
+		F247C4591E35F60F00C8437B /* 750_1334.png in Resources */ = {isa = PBXBuildFile; fileRef = F247C4531E35F60F00C8437B /* 750_1334.png */; };
+		F247C45A1E35F60F00C8437B /* 1242_2208.png in Resources */ = {isa = PBXBuildFile; fileRef = F247C4541E35F60F00C8437B /* 1242_2208.png */; };
+		F247C45B1E35F60F00C8437B /* 2208_1242.png in Resources */ = {isa = PBXBuildFile; fileRef = F247C4551E35F60F00C8437B /* 2208_1242.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EE588347E0087BEFBD5C600 /* libPods-adpresso_sample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-adpresso_sample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AdpressoSampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdpressoSampleAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AdpressoSampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdpressoSampleAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* adpresso_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adpresso_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* adpresso_sample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adpresso_sample_Prefix.pch; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E09C79A291CCC53E909A02F /* Pods-adpresso_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample/Pods-adpresso_sample.release.xcconfig"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* adpresso_sample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "adpresso_sample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		963011B41A419034007C1416 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = adlantis_sample/Images.xcassets; sourceTree = "<group>"; };
+		963011BA1A4191B2007C1416 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Launch Screen.xib"; path = "resources/Launch Screen.xib"; sourceTree = "<group>"; };
+		9A55ED462C948A8E330D7D7A /* Pods-adpresso_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adpresso_sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-adpresso_sample/Pods-adpresso_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D7D3FA1785772D00B08C5F /* InterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
+		D9D7D3FB1785772D00B08C5F /* InterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
+		D9D7D3FC1785772D00B08C5F /* InterstitialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InterstitialViewController.xib; path = resources/InterstitialViewController.xib; sourceTree = "<group>"; };
+		F116624B1121304E00AF352F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		F116624C1121304E00AF352F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		F134A135160ADCF000134509 /* RotatingNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingNavigationController.h; sourceTree = "<group>"; };
+		F134A136160ADCF000134509 /* RotatingNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingNavigationController.m; sourceTree = "<group>"; };
+		F166280D130D20F2000BDCF0 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = resources/RootViewController.xib; sourceTree = "<group>"; };
+		F166280E130D20F2000BDCF0 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewController.xib; path = resources/TableViewController.xib; sourceTree = "<group>"; };
+		F166280F130D20F2000BDCF0 /* BannerIBViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BannerIBViewController.xib; path = resources/BannerIBViewController.xib; sourceTree = "<group>"; };
+		F184508F17B2331700D2EF87 /* UIViewController+IOS7ViewControllerEdgeSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IOS7ViewControllerEdgeSupport.h"; sourceTree = "<group>"; };
+		F184509017B2331700D2EF87 /* UIViewController+IOS7ViewControllerEdgeSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IOS7ViewControllerEdgeSupport.m"; sourceTree = "<group>"; };
+		F190F14215105F0100C21CDD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F193AA37178A611E00B1976E /* BannerCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerCodeViewController.h; sourceTree = "<group>"; };
+		F193AA38178A611E00B1976E /* BannerCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerCodeViewController.m; sourceTree = "<group>"; };
+		F193AA39178A611E00B1976E /* BannerCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BannerCodeViewController.xib; path = Classes/BannerCodeViewController.xib; sourceTree = "<group>"; };
+		F1D74A0C17407B2300512F18 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F1E1C03010B4E646003B04C6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F1E1C09010B504EC003B04C6 /* BannerIBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerIBViewController.h; sourceTree = "<group>"; };
+		F1E1C09110B504EC003B04C6 /* BannerIBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerIBViewController.m; sourceTree = "<group>"; };
+		F1E1C0D110B50B2B003B04C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F1E1C35810B53F74003B04C6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F1E1C3AA10B5433A003B04C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F2247D6C1E35EA5900094B30 /* 57_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57_57.png; sourceTree = "<group>"; };
+		F2247D6D1E35EA5900094B30 /* 114_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114_114.png; sourceTree = "<group>"; };
+		F2247D6E1E35EA5900094B30 /* 120_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120_120.png; sourceTree = "<group>"; };
+		F2247D6F1E35EA5900094B30 /* 180_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180_180.png; sourceTree = "<group>"; };
+		F247C4501E35F60F00C8437B /* 320_480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 320_480.png; path = resources/320_480.png; sourceTree = "<group>"; };
+		F247C4511E35F60F00C8437B /* 640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 640_960.png; path = resources/640_960.png; sourceTree = "<group>"; };
+		F247C4521E35F60F00C8437B /* 640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 640_1136.png; path = resources/640_1136.png; sourceTree = "<group>"; };
+		F247C4531E35F60F00C8437B /* 750_1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 750_1334.png; path = resources/750_1334.png; sourceTree = "<group>"; };
+		F247C4541E35F60F00C8437B /* 1242_2208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1242_2208.png; path = resources/1242_2208.png; sourceTree = "<group>"; };
+		F247C4551E35F60F00C8437B /* 2208_1242.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2208_1242.png; path = resources/2208_1242.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D74A0D17407B2300512F18 /* AdSupport.framework in Frameworks */,
+				F190F14315105F0100C21CDD /* CoreTelephony.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				F1E1C03110B4E646003B04C6 /* SystemConfiguration.framework in Frameworks */,
+				F1E1C0D210B50B2B003B04C6 /* MapKit.framework in Frameworks */,
+				F1E1C35910B53F74003B04C6 /* OpenGLES.framework in Frameworks */,
+				F1E1C3AB10B5433A003B04C6 /* QuartzCore.framework in Frameworks */,
+				808EA672CB5B2D7980ADDBBD /* libPods-adpresso_sample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AdpressoSampleAppDelegate.h */,
+				1D3623250D0F684500981E51 /* AdpressoSampleAppDelegate.m */,
+				F193AA37178A611E00B1976E /* BannerCodeViewController.h */,
+				F193AA38178A611E00B1976E /* BannerCodeViewController.m */,
+				F1E1C09010B504EC003B04C6 /* BannerIBViewController.h */,
+				F1E1C09110B504EC003B04C6 /* BannerIBViewController.m */,
+				D9D7D3FA1785772D00B08C5F /* InterstitialViewController.h */,
+				D9D7D3FB1785772D00B08C5F /* InterstitialViewController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				F134A135160ADCF000134509 /* RotatingNavigationController.h */,
+				F134A136160ADCF000134509 /* RotatingNavigationController.m */,
+				F116624B1121304E00AF352F /* TableViewController.h */,
+				F116624C1121304E00AF352F /* TableViewController.m */,
+				F184508F17B2331700D2EF87 /* UIViewController+IOS7ViewControllerEdgeSupport.h */,
+				F184509017B2331700D2EF87 /* UIViewController+IOS7ViewControllerEdgeSupport.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* adpresso_sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				94E3A080E4FE6F35D16BEAE3 /* Pods */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* adpresso_sample_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F247C4501E35F60F00C8437B /* 320_480.png */,
+				F247C4511E35F60F00C8437B /* 640_960.png */,
+				F247C4521E35F60F00C8437B /* 640_1136.png */,
+				F247C4531E35F60F00C8437B /* 750_1334.png */,
+				F247C4541E35F60F00C8437B /* 1242_2208.png */,
+				F247C4551E35F60F00C8437B /* 2208_1242.png */,
+				F2247D6C1E35EA5900094B30 /* 57_57.png */,
+				F2247D6D1E35EA5900094B30 /* 114_114.png */,
+				F2247D6E1E35EA5900094B30 /* 120_120.png */,
+				F2247D6F1E35EA5900094B30 /* 180_180.png */,
+				8D1107310486CEB800E47090 /* adpresso_sample-Info.plist */,
+				F193AA39178A611E00B1976E /* BannerCodeViewController.xib */,
+				F166280F130D20F2000BDCF0 /* BannerIBViewController.xib */,
+				963011B41A419034007C1416 /* Images.xcassets */,
+				D9D7D3FC1785772D00B08C5F /* InterstitialViewController.xib */,
+				F166280D130D20F2000BDCF0 /* RootViewController.xib */,
+				F166280E130D20F2000BDCF0 /* TableViewController.xib */,
+				963011BA1A4191B2007C1416 /* Launch Screen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1D74A0C17407B2300512F18 /* AdSupport.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				F1E1C3AA10B5433A003B04C6 /* QuartzCore.framework */,
+				F1E1C03010B4E646003B04C6 /* SystemConfiguration.framework */,
+				F1E1C0D110B50B2B003B04C6 /* MapKit.framework */,
+				F1E1C35810B53F74003B04C6 /* OpenGLES.framework */,
+				F190F14215105F0100C21CDD /* CoreTelephony.framework */,
+				0EE588347E0087BEFBD5C600 /* libPods-adpresso_sample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94E3A080E4FE6F35D16BEAE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A55ED462C948A8E330D7D7A /* Pods-adpresso_sample.debug.xcconfig */,
+				5E09C79A291CCC53E909A02F /* Pods-adpresso_sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* adpresso_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "adpresso_sample" */;
+			buildPhases = (
+				E9ED28B963529B81689D5EC1 /* [CP] Check Pods Manifest.lock */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				F705FD9B1904C793840D81D2 /* [CP] Embed Pods Frameworks */,
+				1E8DD93D98AC74B3C7B56633 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adpresso_sample;
+			productName = adlantis_sample;
+			productReference = 1D6058910D05DD3D006BFB54 /* adpresso_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = C76956R737;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "adpresso_sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				ja,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* adpresso_sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F247C4591E35F60F00C8437B /* 750_1334.png in Resources */,
+				F1662812130D20F2000BDCF0 /* RootViewController.xib in Resources */,
+				F2247D711E35EA5900094B30 /* 114_114.png in Resources */,
+				F247C4561E35F60F00C8437B /* 320_480.png in Resources */,
+				F247C45A1E35F60F00C8437B /* 1242_2208.png in Resources */,
+				F1662813130D20F2000BDCF0 /* TableViewController.xib in Resources */,
+				F247C4571E35F60F00C8437B /* 640_960.png in Resources */,
+				F2247D701E35EA5900094B30 /* 57_57.png in Resources */,
+				F1662814130D20F2000BDCF0 /* BannerIBViewController.xib in Resources */,
+				F2247D721E35EA5900094B30 /* 120_120.png in Resources */,
+				963011B51A419034007C1416 /* Images.xcassets in Resources */,
+				963011BB1A4191B2007C1416 /* Launch Screen.xib in Resources */,
+				D9D7D3FE1785772E00B08C5F /* InterstitialViewController.xib in Resources */,
+				F247C45B1E35F60F00C8437B /* 2208_1242.png in Resources */,
+				F247C4581E35F60F00C8437B /* 640_1136.png in Resources */,
+				F193AA3B178A611E00B1976E /* BannerCodeViewController.xib in Resources */,
+				F2247D731E35EA5900094B30 /* 180_180.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E8DD93D98AC74B3C7B56633 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adpresso_sample/Pods-adpresso_sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9ED28B963529B81689D5EC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F705FD9B1904C793840D81D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-adpresso_sample/Pods-adpresso_sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AdpressoSampleAppDelegate.m in Sources */,
+				F184509117B2331700D2EF87 /* UIViewController+IOS7ViewControllerEdgeSupport.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				F1E1C09310B504EC003B04C6 /* BannerIBViewController.m in Sources */,
+				F116624D1121304E00AF352F /* TableViewController.m in Sources */,
+				F134A137160ADCF000134509 /* RotatingNavigationController.m in Sources */,
+				D9D7D3FD1785772E00B08C5F /* InterstitialViewController.m in Sources */,
+				F193AA3A178A611E00B1976E /* BannerCodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A55ED462C948A8E330D7D7A /* Pods-adpresso_sample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = C76956R737;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = adpresso_sample_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "adpresso_sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = adpresso_sample;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E09C79A291CCC53E909A02F /* Pods-adpresso_sample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = C76956R737;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = adpresso_sample_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "adpresso_sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = adpresso_sample;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/..\"",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/..\"",
+					"$(inherited)",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "adpresso_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "adpresso_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
